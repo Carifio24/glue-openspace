@@ -10,5 +10,5 @@ except DistributionNotFound:
 
 def setup():
     from .viewer import OpenSpaceDataViewer
-    from glue.config import qt_client
+    from glue_qt.config import qt_client
     qt_client.add(OpenSpaceDataViewer)

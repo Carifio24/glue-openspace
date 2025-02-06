@@ -4,8 +4,8 @@ from qtpy.QtWidgets import QLabel, QLineEdit, QHBoxLayout, QVBoxLayout, QPushBut
 from qtpy.QtGui import QImage, QPixmap
 from qtpy.QtCore import Qt
 
-from glue.viewers.common.qt.data_viewer import DataViewer
-from glue.utils.qt import messagebox_on_error
+from glue_qt.viewers.common.data_viewer import DataViewer
+from glue_qt.utils import messagebox_on_error
 
 from websocket import create_connection
 
