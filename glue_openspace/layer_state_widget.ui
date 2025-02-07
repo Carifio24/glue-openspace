@@ -88,7 +88,7 @@
           <item>
            <widget class="QComboBox" name="combosel_size_att">
             <property name="sizeAdjustPolicy">
-             <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+             <enum>QComboBox::AdjustToContents</enum>
             </property>
            </widget>
           </item>
@@ -240,7 +240,7 @@
           <item>
            <widget class="QComboBox" name="combosel_cmap_att">
             <property name="sizeAdjustPolicy">
-             <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+             <enum>QComboBox::AdjustToContents</enum>
             </property>
            </widget>
           </item>
@@ -326,7 +326,7 @@
           <item>
            <widget class="QColormapCombo" name="combodata_cmap">
             <property name="sizeAdjustPolicy">
-             <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+             <enum>QComboBox::AdjustToContents</enum>
             </property>
            </widget>
           </item>
@@ -416,12 +416,12 @@
   <customwidget>
    <class>QColorBox</class>
    <extends>QLabel</extends>
-   <header>glue.utils.qt.colors</header>
+   <header>glue_qt.utils.colors</header>
   </customwidget>
   <customwidget>
    <class>QColormapCombo</class>
    <extends>QComboBox</extends>
-   <header>glue.utils.qt.colors</header>
+   <header>glue_qt.utils.colors</header>
   </customwidget>
  </customwidgets>
  <resources/>
